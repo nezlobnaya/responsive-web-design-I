@@ -241,8 +241,45 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
+    .container (
+        width: 500px;
+        margin: 0 auto;
+    )
 
+    header {
+        width: 500px;
+        margin: 0;
+        padding: 0;
+        align-content: center;
+        justify-content: center;
+    }
+
+    header nav {
+        flex-direction: column;
+    }
+
+    header nav a {
+        margin: 20px 0 0;
+        border-bottom: 1px solid black;
+        width: 500px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+    }
+
+    .top-content {
+        flex-direction: column; 
+    }
+
+    .middle-img {
+        width: 500px;
+    }
+    
+    .bottom-content {
+        flex-direction: column;
+    }
 }
+
 
 
